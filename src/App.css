@@ -13,15 +13,6 @@
   }
 }
 
-hr:line {
-  height: 2px;
-  background-color: #ff0000;
-  border: none;
-}
-/* .div{
-
-} */
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

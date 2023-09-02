@@ -8,7 +8,18 @@ export default class Section extends Component {
         <div>
           <h2>
             <b>
-              <i>END</i>
+              <br />
+              <hr
+                style={{
+                  color: "#333333",
+                  backgroundColor: "#333333",
+                  borderColor: "#333333",
+                  marginTop: "100",
+                  marginBottom: "100",
+                  marginLeft: "200px",
+                  marginRight: "200px",
+                }}
+              />
             </b>
           </h2>
         </div>

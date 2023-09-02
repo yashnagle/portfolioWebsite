@@ -6,7 +6,11 @@ export default class Section extends Component {
     return (
       <div>
         <div>
-          <h1 className="text-center">{title}</h1>
+          <h2>
+            <b>
+              <i>END</i>
+            </b>
+          </h2>
         </div>
         <div>{children}</div>
       </div>

@@ -16,7 +16,6 @@ class App extends Component {
         <Footer title="Thanks"></Footer>
         {/* <div className="line"></div> */}
         <br />
-        <hr className="line" />
         <br />
         <br />
       </div>

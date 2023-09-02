@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d4092cd.css",
+    "main.js": "/static/js/main.eefa6f8f.js",
+    "static/media/nerdy_boy_3.svg": "/static/media/nerdy_boy_3.e998976ffdc39fa5124dae18d7c15bee.svg",
+    "index.html": "/index.html",
+    "main.9d4092cd.css.map": "/static/css/main.9d4092cd.css.map",
+    "main.eefa6f8f.js.map": "/static/js/main.eefa6f8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d4092cd.css",
+    "static/js/main.eefa6f8f.js"
+  ]
+}

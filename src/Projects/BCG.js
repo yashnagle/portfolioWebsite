@@ -1,6 +1,5 @@
 const BCG = {
-  title:
-    "BCG Data Science and Analytics Virtual Experience Program , CHANGE FONT STYLE AND COLOR AND ADD A FOOTER",
+  title: "BCG Data Science and Analytics Virtual Experience Program",
   tech: ["Python", "Matplotlib", "Seaborn", "Scikit-learn"],
   duties: [
     "Validated how price sensitivity affects churn of a company that supplies power and gas small and medium sized enterprises.",

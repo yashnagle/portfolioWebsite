@@ -9,9 +9,13 @@ export default class Section extends Component {
         <div>
           <h3>{title}</h3>
         </div>
-        <span>
-          <i>{tech.join(" ")}</i>
-        </span>
+        <h4>
+          <span>
+            <b>
+              <i>{tech.join(" ")}</i>
+            </b>
+          </span>
+        </h4>
         <span></span>
         <ul style={{ listStyleType: "disc", paddingLeft: "15px" }}>
           {duties.map((duty) => (

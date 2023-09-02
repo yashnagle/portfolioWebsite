@@ -41,7 +41,10 @@
   font-size: 20px;
   color: #1c1b1b;
   display: inline-flexbox;
+  text-align: center;
   font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner {
@@ -73,6 +76,16 @@
   background-color: black;
   margin-left: 10%;
   margin-top: 5vw;
+  display: inline-flexbox;
+}
+
+.line2 {
+  width: 15%;
+  height: 0.1vw;
+  background-color: black;
+  margin-left: auto;
+  margin-top: 1vw;
+  margin-right: 10%;
   display: inline-flexbox;
 }
 
@@ -115,16 +128,6 @@
 .cta1 button:hover {
   background-color: black;
   color: white;
-}
-
-.line2 {
-  width: 15%;
-  height: 0.1vw;
-  background-color: black;
-  margin-left: auto;
-  margin-top: 1vw;
-  margin-right: 10%;
-  display: inline-flexbox;
 }
 
 .section-creator {

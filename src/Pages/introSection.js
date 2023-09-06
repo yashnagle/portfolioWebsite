@@ -1,6 +1,7 @@
 import React from "react";
 import "./LandingScreen.css";
 import logo from "../Images/nerdy_boy_3.svg";
+import Section from "./section/section";
 
 import { TypeAnimation } from "react-type-animation";
 
@@ -59,20 +60,19 @@ const LandingPage = () => {
       <div className="line2"></div>
       <div className="intro">
         <p>
-          <br />
-          <br />
-          I'm an Honors new-grad with a double major in <u>
-            Computer Science
-          </u>{" "}
-          and <u>Economics</u>.
-          <br />I have gained valuable industry experience as a{" "}
-          <u>Data Analyst Intern</u> at Persistent Systems.
-          <br />I have also worked as a <u>Research Assistant</u> for a{" "}
-          <u>Machine Learning lab</u>, gaining hands-on experience with research
-          methodologies and data analysis techniques.
-          <br />I am constantly seeking new opportunities to grow and learn, and
-          I am eager to bring my expertise to a team that shares my passion for
-          innovation and problem-solving.
+          <Section title="Introduction">
+            <br />
+            I'm an Honors new-grad with a double major in{" "}
+            <u>Computer Science</u> and <u>Economics</u>.
+            <br />I have gained valuable industry experience as a{" "}
+            <u>Data Analyst Intern</u> at Persistent Systems.
+            <br />I have also worked as a <u>Research Assistant</u> for a{" "}
+            <u>Machine Learning lab</u>, gaining hands-on experience with
+            research methodologies and data analysis techniques.
+            <br />I am constantly seeking new opportunities to grow and learn,
+            and I am eager to bring my expertise to a team that shares my
+            passion for innovation and problem-solving.
+          </Section>
         </p>
       </div>
 

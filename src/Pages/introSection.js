@@ -17,7 +17,6 @@ const LandingPage = () => {
       <div className="lp-header">
         <img src={logo} alt="YN Logo" className="logo-header" />
         <div className="nav-links">
-          {/* <a href="/">Home</a> */}
           <a
             href="https://drive.google.com/file/d/17DWbIyfsbh0g5dXB7Szb8OgvUNnEzNy7/view?usp=drive_link"
             target="_blank"

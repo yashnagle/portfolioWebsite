@@ -44,11 +44,17 @@ export default class Resume extends Component {
                 );
               })}
           </Section>
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <br />
           <Section title="Work Experience">
             <WorkExpSection workExp={Persistent} />
             <WorkExpSection workExp={KDL} />
           </Section>
           {/* Projects */}
+          <div className="line1"></div>
+          <div className="line2"></div>
+          <br />
           <Section title="Projects">
             <ProjectExpSection projExp={Bcg} />
             <ProjectExpSection projExp={BookTracker} />

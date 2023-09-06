@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <LandingPage resumeData={resumeData} />
-        <ExperienceSection resumeData={resumeData} />
+        {/* <ExperienceSection resumeData={resumeData} /> */}
         {/* <Footer title="Thanks"></Footer> */}
         {/* <div className="line"></div> */}
         <br />

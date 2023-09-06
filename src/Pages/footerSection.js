@@ -1,5 +1,5 @@
 import React, { Component, View } from "react";
-import Section1 from "./section/section";
+import Section1 from "./section/section1";
 import { BsLinkedin, BsInstagram } from "react-icons/bs";
 import { MdAlternateEmail } from "react-icons/md";
 import { FiMail } from "react-icons/fi";
@@ -17,8 +17,12 @@ export default class Section extends Component {
               <div className="line1"></div>
               <div className="line2"></div>
               <br />
-              <Section1 title="Contact info" />
-              <a href="https://www.linkedin.com/in/yashnagle/">
+              <Section1 title="Get in Touch" />
+              <a
+                href="https://www.linkedin.com/in/yashnagle/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <BsLinkedin />
               </a>
               <a href={`mailto:yash.nagle1705@gmail.com`}>
@@ -28,7 +32,7 @@ export default class Section extends Component {
                 <MdAlternateEmail />
               </a>
 
-              {/* <hr
+              <hr
                 style={{
                   color: "#333333",
                   backgroundColor: "#333333",
@@ -38,7 +42,7 @@ export default class Section extends Component {
                   marginLeft: "200px",
                   marginRight: "200px",
                 }}
-              /> */}
+              />
             </b>
           </h2>
         </div>

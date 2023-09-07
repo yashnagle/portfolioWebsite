@@ -1,6 +1,7 @@
 import React from "react";
 import "./LandingScreen.css";
 import logo from "../Images/nerdy_boy_3.svg";
+import yashImg from "../Images/yash.jpeg";
 import Section from "./section/section";
 
 import { TypeAnimation } from "react-type-animation";
@@ -57,21 +58,24 @@ const LandingPage = () => {
       </div>
       <div className="line1"></div>
       <div className="line2"></div>
-      <div className="intro">
-        <p>
-          <Section title="Introduction">
-            <br />
-            I'm an Honors new-grad with a double major in{" "}
-            <u>Computer Science</u> and <u>Economics</u>.
-            <br />I have gained valuable industry experience as a{" "}
-            <u>Data Analyst Intern</u> at Persistent Systems.
-            <br />I have also worked as a <u>Research Assistant</u> for a{" "}
-            <u>Machine Learning lab</u>, gaining hands-on experience with
-            research methodologies and data analysis techniques.
-            <br />I am constantly seeking new opportunities to grow and learn,
-            and I am eager to bring my expertise to a team that shares my
-            passion for innovation and problem-solving.
-          </Section>
+      <Section title="Introduction" />
+      <br />
+      <div class="flex items-center justify-center w-3/4 m-auto">
+        <img src={yashImg} alt="Pic of Yash" class="w-80 h-80" />
+        <p class="ml-4">
+          {" "}
+          I'm an Honors new-grad with a double major in <u>
+            Computer Science
+          </u>{" "}
+          and <u>Economics</u>.
+          <br />I have gained valuable industry experience as a{" "}
+          <u>Data Analyst Intern</u> at Persistent Systems.
+          <br />I have also worked as a <u>Research Assistant</u> for a{" "}
+          <u>Machine Learning lab</u>, gaining hands-on experience with research
+          methodologies and data analysis techniques.
+          <br />I am constantly seeking new opportunities to grow and learn, and
+          I am eager to bring my expertise to a team that shares my passion for
+          innovation and problem-solving.
         </p>
       </div>
 

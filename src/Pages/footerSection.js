@@ -18,20 +18,25 @@ export default class Section extends Component {
               <div className="line2"></div>
               <br />
               <Section1 title="Get in Touch" />
-              <a
-                href="https://www.linkedin.com/in/yashnagle/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <BsLinkedin />
-              </a>
-              <a href={`mailto:yash.nagle1705@gmail.com`}>
-                <FiMail />
-              </a>
-              <a href={`mailto:ynagle@umass.edu`}>
-                <MdAlternateEmail />
-              </a>
-
+              <div class="flex items-center justify-center">
+                <br />
+                <a
+                  href="https://www.linkedin.com/in/yashnagle/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BsLinkedin />
+                </a>
+                <div class="h-6 w-px bg-gray-400 mx-2"></div>
+                <a href={`mailto:yash.nagle1705@gmail.com`}>
+                  <FiMail />
+                </a>
+                <div class="h-6 w-px bg-gray-400 mx-2"></div>
+                <a href={`mailto:ynagle@umass.edu`}>
+                  <MdAlternateEmail />
+                </a>
+              </div>
+              <br />
               <hr
                 style={{
                   color: "#333333",

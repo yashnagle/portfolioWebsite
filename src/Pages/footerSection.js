@@ -25,18 +25,19 @@ export default class Section extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <BsLinkedin />
+                  <BsLinkedin size={27} />
                 </a>
-                <div class="h-6 w-px bg-gray-400 mx-2"></div>
+                <div class="h-8 w-px bg-gray-400 mx-2"></div>
                 <a href={`mailto:yash.nagle1705@gmail.com`}>
-                  <FiMail />
+                  <FiMail size={28} />
                 </a>
-                <div class="h-6 w-px bg-gray-400 mx-2"></div>
+                <div class="h-8 w-px bg-gray-400 mx-2"></div>
                 <a href={`mailto:ynagle@umass.edu`}>
-                  <MdAlternateEmail />
+                  <MdAlternateEmail size={28} />
                 </a>
               </div>
               <br />
+
               <hr
                 style={{
                   color: "#333333",

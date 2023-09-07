@@ -14,10 +14,10 @@ const LandingPage = () => {
   // };
 
   return (
-    <div className="landing-page">
-      <div className="lp-header">
+    <div className="landing-page bg-grayColor">
+      <div className="lp-header bg-grayColor">
         <img src={logo} alt="YN Logo" className="logo-header" />
-        <div className="nav-links">
+        <div className="nav-links bg-grayColor">
           <a
             href="https://drive.google.com/file/d/17DWbIyfsbh0g5dXB7Szb8OgvUNnEzNy7/view?usp=drive_link"
             target="_blank"
@@ -41,10 +41,10 @@ const LandingPage = () => {
           </a>
         </div>
       </div>
-      <div className="banner">
-        <div className="caption">
+      <div className="banner bg-grayColor">
+        <div className="caption bg-grayColor">
           Welcome, my name is
-          <div className="type-box">
+          <div className="type-box bg-grayColor">
             <TypeAnimation
               sequence={["Yash Nagle.", 1000]}
               speed={200}

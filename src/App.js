@@ -10,7 +10,7 @@ import Footer from "../src/Pages//footerSection";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App bg-grayColor">
         <LandingPage resumeData={resumeData} />
         <ExperienceSection resumeData={resumeData} />
         <Footer title="Thanks"></Footer>

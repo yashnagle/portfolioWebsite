@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import moment from "moment";
 import Persistent from "../workExp/Persistent";
+import Spinnaker from "../workExp/spinnakerAnalytics";
 import KDL from "../workExp/KDL";
 import BookTracker from "../Projects/bookTracker";
 import Bcg from "../Projects/BCG";
@@ -48,10 +49,13 @@ export default class Resume extends Component {
           <div className="line2"></div>
           <br />
           <Section title="Work Experience">
+            <WorkExpSection workExp={Spinnaker} />
             <WorkExpSection workExp={Persistent} />
             <WorkExpSection workExp={KDL} />
+            {/* </Section> */}
+            {/* Projects */}
           </Section>
-          {/* Projects */}
+
           <div className="line1"></div>
           <div className="line2"></div>
           <br />

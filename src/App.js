@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App bg-grayColor">
         <LandingPage resumeData={resumeData} />
-        <Timeline />
+        {/* <Timeline /> */}
         <ExperienceSection resumeData={resumeData} />
         <Footer title="Thanks"></Footer>
         <div className="line"></div>

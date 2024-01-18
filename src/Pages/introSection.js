@@ -19,7 +19,7 @@ const LandingPage = () => {
         <img src={logo} alt="YN Logo" className="logo-header" />
         <div className="nav-links bg-grayColor">
           <a
-            href="https://drive.google.com/file/d/17DWbIyfsbh0g5dXB7Szb8OgvUNnEzNy7/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1WgtNcBKwdCs15iHUO_QFdfEU-d1WCnrF/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >

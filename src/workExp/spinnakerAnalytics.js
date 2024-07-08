@@ -1,12 +1,12 @@
 const Spinnaker = {
   CompanyName: "Spinnaker Analytics LLC",
-  title: "Data Analyst Intern",
+  title: "Data Analyst",
   sDate: "Oct 2023",
   eDate: "Present",
   duties: [
-    "Developed a Reporting Template in MS Excel for clients to analyze over 1000 data points to measure project success.",
-    "Automated data upload to Azure Servers from local servers by creating a Python script, hence improving efficiency by 30%.",
-    "Integrated ML model with client website by creating a Flask server to enhance the backend capabilities of the website.",
+    "Developed and implemented robust models to forecast sales at an SKU level using Holt-Winters algorithm, achieving a 95% average accuracy.",
+    "Assisted a top 10 insurance company through Digital Transformation, improving efficiencies by 30%, and bottom-line by 15%.",
+    "Built pipelines to optimize data processes, integrating ETL methodologies, and automation scripts using Python",
   ],
 };
 
